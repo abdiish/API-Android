@@ -4,6 +4,7 @@ public class Film {
 
     String title;
     int episode_id;
+    String opening;
     String director;
     String producer;
     String release_date;
@@ -123,5 +124,13 @@ public class Film {
 
     public void setUrl(String url) {
         this.url = url;
+    }
+
+    public String getOpening() {
+        return opening;
+    }
+
+    public void setOpening(String opening) {
+        this.opening = opening;
     }
 }
