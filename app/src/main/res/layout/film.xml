@@ -54,8 +54,8 @@
 
 
         <TextView
-            android:id="@+id/startships"
-            android:text="startships"
+            android:id="@+id/starships"
+            android:text="starships"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
