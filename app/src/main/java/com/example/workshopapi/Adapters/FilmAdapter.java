@@ -48,7 +48,6 @@ public class FilmAdapter extends RecyclerView.Adapter<FilmAdapter.ViewHolder>{
         holder.created.setText(filmList.get(position).getCreated());
         holder.edited.setText(filmList.get(position).getEdited());
 
-
     }
 
     @Override
